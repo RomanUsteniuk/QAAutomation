@@ -69,46 +69,5 @@ public class EnumCalc {
 }
 
 
-enum Operation {
-    SUM {
-        public void action(int x, int y, String act) {
-            System.out.println("Результат:" + String.format("%d%s%d=%d", x, act, y, x + y));
-        }
-    },
-    MINUS {
-        public void action(int x, int y, String act) {
-            System.out.println("Результат:" + String.format("%d%s%d=%d", x, act, y, x - y));
-        }
-    },
-    MULT {
-        public void action(int x, int y, String act) {
-            System.out.println("Результат:" + String.format("%d%s%d=%d", x, act, y, x * y));
-        }
-    },
-    DIV {
-        public void action(int x, int y, String act) {
-            try {
-                System.out.println("Результат:" + String.format("%d%s%d=%d", x, act, y, x / y));
-            }
-            catch (ArithmeticException e){
-                throw new ZeroException("На ноль делить нельзя!!!!!");
-            }
-        }
-    },
-    REM {
-        public void action(int x, int y, String act) {
-            try {
-                System.out.println("Результат:" + String.format("%d%s%d=%d", x, act, y, x % y));
-            }
-            catch (ArithmeticException e){
-                throw new ZeroException("На ноль делить нельзя!!!!!");
-            }
-        }
-    };
-
-    public abstract void action(int x, int y, String action);
-}
-
-
 
 

@@ -9,5 +9,8 @@
         <module name="Home_Worck_1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Home_Worck_1" target="7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
