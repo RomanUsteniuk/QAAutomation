@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93a69aa9-5092-46d7-9e74-6c7f077df532" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z5XFuAM7XHYWsJkNQgHioJi0p6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Roma\IdeaProjects\Home_Worck_1\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.HWTest1">
+    <configuration name="Calculator" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.usteniuk.Calculator" />
+      <module name="Home_Worck_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.usteniuk.Map" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumCalc" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.usteniuk.EnumCalc" />
+      <module name="Home_Worck_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.usteniuk.EvenOdd" />
+      <module name="Home_Worck_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Map" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.usteniuk.Map" />
+      <module name="Home_Worck_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapFile" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.usteniuk.MapFile" />
+      <module name="Home_Worck_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapToClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.usteniuk.MapToClass" />
+      <module name="Home_Worck_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.usteniuk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewCalc" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.usteniuk.NewCalc" />
+      <module name="Home_Worck_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HWTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Home_Worck_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.usteniuk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.usteniuk" />
+      <option name="MAIN_CLASS_NAME" value="org.usteniuk.HWTest1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.NewCalc" />
+      <item itemvalue="Application.HomeWork" />
+      <item itemvalue="Application.Map" />
+      <item itemvalue="Application.EnumCalc" />
+      <item itemvalue="Application.MapFile" />
+      <item itemvalue="Application.Calculator" />
+      <item itemvalue="Application.MapToClass" />
+      <item itemvalue="TestNG.HWTest1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.HWTest1" />
+        <item itemvalue="Application.MapToClass" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93a69aa9-5092-46d7-9e74-6c7f077df532" name="Default Changelist" comment="" />
+      <created>1584129831349</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584129831349</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="677" y="190" key="#Calculator" timestamp="1584130677580">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="190" key="#Calculator/0.0.1920.1040@0.0.1920.1040" timestamp="1584130677580" />
+    <state x="677" y="190" key="#Map" timestamp="1584907938223">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="190" key="#Map/0.0.1920.1040@0.0.1920.1040" timestamp="1584907938223" />
+    <state x="552" y="178" key="#Project_Structure" timestamp="1585228314148">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1585228314148" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585232562440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585232562440" />
+    <state x="734" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585225497075">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="734" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585225497075" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1586696475954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1586696475954" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584618488323" />
+    <state x="689" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585232559403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585232559403" />
+    <state x="631" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584907954390">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="631" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584907954390" />
+    <state x="690" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1585226746563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585226746563" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1584276511990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584276511990" />
+    <state width="1877" height="369" key="GridCell.Tab.0.bottom" timestamp="1586706215707">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1586706215707" />
+    <state width="1877" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586111148445" />
+    <state width="1877" height="369" key="GridCell.Tab.0.center" timestamp="1586706215707">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="369" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1586706215707" />
+    <state width="1877" height="369" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586111148445" />
+    <state width="1877" height="369" key="GridCell.Tab.0.left" timestamp="1586706215707">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="369" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1586706215707" />
+    <state width="1877" height="369" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586111148445" />
+    <state width="1877" height="369" key="GridCell.Tab.0.right" timestamp="1586706215707">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="369" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1586706215707" />
+    <state width="1877" height="369" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586111148445" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585235339378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585235339378" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1585235339377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585235339377" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1585235339377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585235339377" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1585235339377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585235339377" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1584621112465">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584621112465" />
+    <state x="553" y="268" key="caller.chooser.dialog" timestamp="1584635473680">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="553" y="268" key="caller.chooser.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584635473680" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586688697979">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1586688697979" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586109207394" />
+    <state x="982" y="188" key="extract.method.dialog" timestamp="1584635410212">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="982" y="188" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584635410212" />
+    <state x="591" y="65" width="737" height="909" key="find.popup" timestamp="1586701253424">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="591" y="65" width="737" height="909" key="find.popup/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1586701253424" />
+    <state x="666" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1584905834857">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="148" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584905834857" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1584899570102">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584899570102" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="1" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
