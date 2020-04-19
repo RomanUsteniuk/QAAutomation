@@ -20,10 +20,9 @@ public class MapToClass {
         String parametre = scanner.next();
         if (parametre.contains("id")) {
             searchByID(myHashMap);
-        } else if (parametre.contains("name")){
+        } else if (parametre.contains("name")) {
             searchByName(myHashMap);
-        }
-        else System.out.println("Значение неизвестно!!!");
+        } else System.out.println("Значение неизвестно!!!");
 
 
     }
@@ -35,11 +34,11 @@ public class MapToClass {
 
         try {
             mapList = Files.readAllLines(mapFile.toPath(), Charset.defaultCharset());
-        }catch (IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
         }
 
-        for (String s: mapList){
+        for (String s : mapList) {
             String[] split = s.split(",");
             String[] split1 = split[1].split(" ");
             FLName flName = new FLName(split1[0], split1[1]);
@@ -50,9 +49,9 @@ public class MapToClass {
     public static void searchByID(HashMap<Integer, FLName> map) {
         System.out.print("Введите нужный ID:");
         int id = Integer.parseInt(scanner.next());
-        for(HashMap.Entry<Integer, FLName> entry: map.entrySet()) {
-            if (entry.getKey().equals(id)){
-                System.out.println(entry.getKey() + " --> " + entry.getValue().getFirstName() +" "+ entry.getValue().getLastName());
+        for (HashMap.Entry<Integer, FLName> entry : map.entrySet()) {
+            if (entry.getKey().equals(id)) {
+                System.out.println(entry.getKey() + " --> " + entry.getValue().getFirstName() + " " + entry.getValue().getLastName());
             }
         }
     }
@@ -60,9 +59,9 @@ public class MapToClass {
     private static void searchByName(HashMap<Integer, FLName> map) {
         System.out.print("Введите нужное имя или фамилию:");
         String name = scanner.next();
-        for(HashMap.Entry<Integer, FLName> entry: map.entrySet()) {
-            if (entry.getValue().getFirstName().contains(name) || entry.getValue().getLastName().contains(name)){
-                System.out.println(entry.getKey() + " --> " + entry.getValue().getFirstName() +" "+ entry.getValue().getLastName());
+        for (HashMap.Entry<Integer, FLName> entry : map.entrySet()) {
+            if (entry.getValue().getFirstName().contains(name) || entry.getValue().getLastName().contains(name)) {
+                System.out.println(entry.getKey() + " --> " + entry.getValue().getFirstName() + " " + entry.getValue().getLastName());
             }
         }
     }

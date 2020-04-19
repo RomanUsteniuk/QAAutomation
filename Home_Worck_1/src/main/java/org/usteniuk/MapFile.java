@@ -20,10 +20,9 @@ public class MapFile {
         String parametre = scanner.next();
         if (parametre.contains("id")) {
             searchByID(myHashMap);
-        } else if (parametre.contains("name")){
+        } else if (parametre.contains("name")) {
             searchByName(myHashMap);
-        }
-        else System.out.println("Значение неизвестно!!!");
+        } else System.out.println("Значение неизвестно!!!");
 
 
     }
@@ -35,26 +34,26 @@ public class MapFile {
 
         try {
             mapList = Files.readAllLines(mapFile.toPath(), Charset.defaultCharset());
-        }catch (IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
         }
 
-        for (String s: mapList){
-                String[] split = s.split(",");
-                HashMap <String, String> value = new HashMap<>();
-                String[] split1 = split[1].split(" ");
-                value.put("firstName", split1[0]);
-                value.put("lastName", split1[1]);
-                map.put(Integer.parseInt(split[0]), value);
+        for (String s : mapList) {
+            String[] split = s.split(",");
+            HashMap<String, String> value = new HashMap<>();
+            String[] split1 = split[1].split(" ");
+            value.put("firstName", split1[0]);
+            value.put("lastName", split1[1]);
+            map.put(Integer.parseInt(split[0]), value);
         }
     }
 
     public static void searchByID(HashMap<Integer, HashMap<String, String>> map) {
         System.out.print("Введите нужный ID:");
         int id = Integer.parseInt(scanner.next());
-        for(HashMap.Entry<Integer, HashMap<String, String>> entry: map.entrySet()) {
-            if (entry.getKey().equals(id)){
-                System.out.println(entry.getKey() + " --> " + entry.getValue().get("firstName") +" "+ entry.getValue().get("lastName"));
+        for (HashMap.Entry<Integer, HashMap<String, String>> entry : map.entrySet()) {
+            if (entry.getKey().equals(id)) {
+                System.out.println(entry.getKey() + " --> " + entry.getValue().get("firstName") + " " + entry.getValue().get("lastName"));
             }
         }
     }
@@ -62,9 +61,9 @@ public class MapFile {
     private static void searchByName(HashMap<Integer, HashMap<String, String>> map) {
         System.out.print("Введите нужное имя или фамилию:");
         String name = scanner.next();
-        for(HashMap.Entry<Integer, HashMap<String, String>> entry: map.entrySet()) {
-            if (entry.getValue().get("firstName").contains(name) || entry.getValue().get("lastName").contains(name)){
-                System.out.println(entry.getKey() + " --> " + entry.getValue().get("firstName") +" "+ entry.getValue().get("lastName"));
+        for (HashMap.Entry<Integer, HashMap<String, String>> entry : map.entrySet()) {
+            if (entry.getValue().get("firstName").contains(name) || entry.getValue().get("lastName").contains(name)) {
+                System.out.println(entry.getKey() + " --> " + entry.getValue().get("firstName") + " " + entry.getValue().get("lastName"));
             }
         }
     }

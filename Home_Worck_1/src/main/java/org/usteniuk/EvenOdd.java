@@ -40,7 +40,7 @@ public class EvenOdd {
 
     public static void evenCollection() {
 
-        for (int i = 0; i< size ; i++) {
+        for (int i = 0; i < size; i++) {
             int result = collection.get(i) % 2;
             if (result == 0) {
                 evenCollection.add(collection.get(i));
@@ -50,7 +50,7 @@ public class EvenOdd {
 
     public static void oddCollection() {
 
-        for (int i = 0;i < size ; i++) {
+        for (int i = 0; i < size; i++) {
             int result = collection.get(i) % 2;
             if (result > 0 || result < 0) {
                 oddCollection.add(collection.get(i));
@@ -58,13 +58,12 @@ public class EvenOdd {
         }
     }
 
-    public static void showCollection(List<Integer> collect){
+    public static void showCollection(List<Integer> collect) {
         int i = 0;
-        while (i < collect.size()){
+        while (i < collect.size()) {
             if (i < collect.size() - 1) {
                 System.out.print(collect.get(i) + ", ");
-            }
-            else {
+            } else {
                 System.out.print(collect.get(i) + "\n");
             }
             i++;
